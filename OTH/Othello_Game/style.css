@@ -1,0 +1,95 @@
+button {
+	background-image: image(silver);
+    font-size: 15px;
+    font-family: Calibri;
+    padding: 10px 40px;
+    text-decoration:none;
+    border-radius: 15px; 
+    border-style: solid;
+    border-width: 2px;
+}
+menubar{
+     font-size: 18px;
+     background-image: image(lavender);
+     font-family: Calibri;
+     border: 7px double #cccccc;
+     border-radius: 15px; 
+  }
+dialog{
+    font-family: fantasy;
+    font-size: 23px;
+    border-radius: 30px; 
+
+}
+dialog radiobutton{
+    font-size: 20px;
+    font-family: fantasy;
+
+}
+frame radiobutton:checked{
+     font-size: 22px;
+     font-family: cursive;
+     font-style: oblique;
+     color: #ff7f50;
+} 
+button:hover {
+	background-image: image(lavender);
+    font-family: cursive;
+    font-size: 15px;
+    padding: 10px 40px;
+	}
+label.l_whiteScore{
+    font-size: 15px;
+    background-color: white;
+    color: #ff7f50;
+}
+button:active {
+	background-image: image(lightsteelblue);
+    font-family: cursive;
+    font-size: 15px;
+    padding: 10px 40px;
+}
+
+window {
+        background-image: url("img/othello_4.png");
+        background-repeat: no-repeat;
+       background-position: center;
+      background-size: cover;
+      font-size: 15px;
+}
+frame {
+    border-radius: 20px; 
+    border: 7px double #cccccc;
+    color: #DEB887;
+    font-family:Comic Sans MS ;
+    font-size: 19px;
+    font-style:oblique;
+}
+
+/*.mainwin {
+    background-color: white;
+    background: #DEB887;
+    border: 5px solid #996600;
+}
+.menubar{
+    font-size: 20px;
+    color: #DEB887;
+}
+.radiobutton{
+   
+   font-size: 20px;
+   color: #DEB887;
+   font-family:Comic Sans MS ;
+    
+}
+.mainbox {
+    background: #cc9900;
+    border: 5px solid #C00000;
+}
+
+.yeplabel {
+    color: #FFFFFF;
+    background: #A52A2A;
+    font: Comic Sans MS 16;
+    padding: 10px;
+}*/
